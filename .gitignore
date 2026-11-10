@@ -1,0 +1,19 @@
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment Variables (CRITICAL)
+.env
+.env.*
+
+# Terraform (CRITICAL)
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
